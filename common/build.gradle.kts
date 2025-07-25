@@ -43,4 +43,18 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //Room
+    api(libs.androidx.room.runtime)
+    api(libs.androidx.room.ktx)
+    api(libs.androidx.room.compiler)
+
+    //ViewModel
+    api(libs.androidx.runtime)
+    api(libs.androidx.viewmodel)
+
+    //koin
+    api(libs.koin.core)
+//    api(libs.koin.android)
+    api(libs.koin.compose)
 }
