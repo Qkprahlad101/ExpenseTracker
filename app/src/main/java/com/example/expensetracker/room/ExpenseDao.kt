@@ -1,11 +1,11 @@
-package com.example.expensetracker.data.room
+package com.example.expensetracker.room
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.expensetracker.data.model.ExpenseData
+import com.example.expensetracker.data.ExpenseData
 import kotlinx.coroutines.flow.Flow
 
 @Dao

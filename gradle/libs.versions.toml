@@ -11,7 +11,7 @@ composeBom = "2024.09.00"
 appcompat = "1.6.1"
 material = "1.10.0"
 room_version = "2.7.2"
-koin_version = "4.1.0"
+koin_version = "3.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -44,6 +44,7 @@ androidx-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx
 koin-core =   { group = "io.insert-koin", name = "koin-core", version.ref = "koin_version" }
 koin-android =   { group = "io.insert-koin", name = "koin-android", version.ref = "koin_version" }
 koin-compose =   { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin_version" }
+koin-viewmodel =   { group = "io.insert-koin", name = "koin-androidx-viewmodel", version.ref = "koin_version" }
 
 
 

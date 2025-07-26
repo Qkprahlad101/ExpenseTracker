@@ -56,5 +56,6 @@ dependencies {
     //koin
     api(libs.koin.core)
 //    api(libs.koin.android)
+    api(libs.koin.viewmodel)
     api(libs.koin.compose)
 }
